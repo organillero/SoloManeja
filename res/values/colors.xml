@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparent">#00000000</color>
+    <color name="menu_endcolor">#FF252525</color>
+    <color name="menu_startcolor">#6C6C6C</color>
+    <color name="app_background">#00000000</color>
+
+</resources>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- ?android:attr/listPreferredItemHeight -->
+
+    <ImageView
+        android:id="@+id/imgBadge"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="5dp"
+        android:contentDescription="@null" />
+
+    <TextView
+        android:id="@+id/tvTitleBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgBadge"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgBadge"
+        android:textColor="@android:color/background_light"
+        android:text="@string/sample"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvDescBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgBadge"
+        android:layout_below="@+id/imgBadge"
+        android:textColor="@android:color/background_light"
+        android:text="@string/sample" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imgBadge"
+        android:layout_below="@+id/imgBadge"
+        android:layout_marginTop="40dp"
+        android:text="@string/obtain"
+        android:textColor="@android:color/background_light"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvTimeBadge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2"
+        android:layout_alignBottom="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:layout_marginLeft="5dp"
+        android:textColor="@android:color/background_light"
+        android:text="@string/sample" />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent"
+    android:layout_width="fill_parent"
+    android:layout_height="@dimen/headerbar_height"
+    android:background="@android:color/darker_gray"
+    android:visibility="gone"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="1.0px"
+        android:background="#ff000000" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:background="@android:color/black">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8.0dip"
+            android:layout_weight="1.0"
+            android:duplicateParentState="true"
+            android:shadowColor="#ff003844"
+            android:shadowDy="-1.0"
+            android:shadowRadius="1.0"
+            android:singleLine="true"
+            android:textSize="18.0sp"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textStyle="bold" />
+
+        <ProgressBar
+            android:id="@+id/header_bar_progress"
+            style="?android:attr/android:progressBarStyleSmall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="9.0dip"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+</LinearLayout>

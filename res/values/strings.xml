@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Solo Maneja</string>
+    <string name="user">Usuario</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="tu_email">Tu correo electrónico</string>
+    <string name="pass">Contraseña</string>
+    <string name="grabar">GRABAR</string>
+    <string name="perfil">PERFIL</string>
+    <string name="badges">BADGES</string>
+    <string name="rutas">RUTAS</string>
+    <string name="trafico">TRÁFICO</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="enviar">Enviar</string>
+    <string name="registrarse_shrt">Registrarse</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="recuperar_pass">Recuperar Contraseña</string>
+    
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    
+    <string name="old_pass">Contraseña Anterior</string>
+    <string name="new_pass">Nueva Contraseña</string>
+    
+    <string name="registrarse">Registrarse en la App</string>
+    <string name="hello">Hello World, SoloManejaActivity!</string>
+
+    
+    <string name="route">"Ruta "</string>
+    <string name="date">Fecha</string>
+    <string name="time">Hora</string>
+    <string name="duration">Duración</string>
+    <string name="points">Puntos</string>
+    
+    <string name="obtain">Obtenido:</string>
+    
+    
+    <string name="url_server">http://app.solomaneja.com/beta/index.php/sistema/api/%1$s</string>
+    
+    <string name="msg_ok_recover_pass">Se le ha enviado un correo a su cuenta de email con las instruciones para recuperar su contraseña.</string>
+    
+    <string name="sample">"Sample "</string>
+    
+    <string-array name="country_arrays">
+        <item>México</item>
+        <item>USA</item>
+        <item>Canada</item>
+    </string-array>
+    
+        <string-array name="country_arrays_values">
+        <item>MX</item>
+        <item>US</item>
+        <item>CA</item>
+    </string-array>
+    
+      <string name="inicio_cronometro">00:00:00</string>
+        
+
+</resources>

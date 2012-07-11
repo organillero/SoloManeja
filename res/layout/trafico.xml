@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.maps.MapView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mapview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/fl_list_Stores"
+    android:apiKey="0ggmsULpx5gWnKdIEw2m1AmGVAPURVYY-LhPUYw"
+    android:clickable="true" />
+<!-- Debug:		0ggmsULpx5gVfp1685TwFmTpLUMe5nUFs-hF9xw -->
+<!-- Release:	0ggmsULpx5gWnKdIEw2m1AmGVAPURVYY-LhPUYw -->
